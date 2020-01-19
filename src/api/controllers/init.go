@@ -19,7 +19,7 @@ func init(){
 
 	err = cc.InitDbTables()
 	if err != nil {
-		fmt.Println(err.Error())
+		fmt.Println("error migrating :" + err.Error())
 		panic(err)
 	}
 }
