@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68c1562d-bb39-4746-b6ac-7f04f57bfaf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/location-backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/Gopkg.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/Gopkg.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/controllers/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/controllers/location_controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/core/core.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/core/db_backend.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/core/models.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/utils/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/controllers/location_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/controllers/location_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/core/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/core/core.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/core/db_backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/core/db_backend.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,20 +81,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/api/controllers/location_controller.go</url>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

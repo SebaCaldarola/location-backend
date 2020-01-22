@@ -6,6 +6,15 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
+func (db DBBackend) UpdateLocation(location *Location) (*Location, error){
+	if err := db.Db.Save(location).Error; err != nil {
+		fmt.Println(err.Error())
+		return nil, err
+	}
+
+	return location, nil
+}
+
 func (db DBBackend) CreateTables() error{
 	if !db.Db.HasTable(&Location{}){
 		db.Db.AutoMigrate(&Location{})
@@ -15,6 +24,10 @@ func (db DBBackend) CreateTables() error{
 		db.Db.AutoMigrate(&Driver{})
 	}
 	return nil
+}
+
+func (db *DBBackend) GetConnection() *gorm.DB {
+	return db.Db
 }
 
 func NewDBBackend() (*DBBackend, error) {
