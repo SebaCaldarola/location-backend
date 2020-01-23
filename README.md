@@ -6,7 +6,7 @@
    **Example payload:**
    
        {
-           "latitude": "",
-           "longitude": "",
+           "latitude": "0.12432",
+           "longitude": "0.546233",
            "driver_id": 1
        }
