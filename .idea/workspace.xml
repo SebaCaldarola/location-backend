@@ -4,8 +4,6 @@
     <list default="true" id="68c1562d-bb39-4746-b6ac-7f04f57bfaf6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/controllers/location_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/controllers/location_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/core/core.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/core/core.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/core/db_backend.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/core/db_backend.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +39,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.dep.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />

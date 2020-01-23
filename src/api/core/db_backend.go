@@ -20,9 +20,6 @@ func (db DBBackend) CreateTables() error{
 		db.Db.AutoMigrate(&Location{})
 	}
 
-	if !db.Db.HasTable(&Driver{}){
-		db.Db.AutoMigrate(&Driver{})
-	}
 	return nil
 }
 

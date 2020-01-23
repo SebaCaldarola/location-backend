@@ -8,9 +8,3 @@ type Location struct {
 	Longitude float64
 	DriverId int
 }
-
-type Driver struct {
-	Model utils.Model
-	FullName string
-	Location Location
-}
